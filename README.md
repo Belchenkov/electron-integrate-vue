@@ -1,24 +1,17 @@
-# integrate-vue
+# Integrating Electron applications with Vue.js
 
-## Project setup
-```
+## Installing
+
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+## Running
+
+```sh
+# terminal 1: run local web server
 npm run serve
-```
 
-### Compiles and minifies for production
+# terminal 2: run electron app
+npm start
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
