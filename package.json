@@ -3,20 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "author": "Aleksey Belchenkov",
-  "main": "main.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "start": "SET DEBUG=true && electron ."
   },
+  "main": "main.js",
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.3.0",
     "@vue/cli-plugin-eslint": "^4.3.0",
+    "@vue/cli-plugin-router": "^4.3.1",
     "@vue/cli-service": "^4.3.0",
     "babel-eslint": "^10.1.0",
     "electron": "^8.2.5",
